@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #030303;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #111111;
+    border-bottom: 2px solid #333333;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #00f0ff;
+    text-shadow: 0 0 8px #00f0ff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-grow {
+    background-color: #00f0ff;
+    color: #000000;
+    border: 2px solid #00f0ff;
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.3);
+    transition: transform 0.3s ease-out;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00f0ff;
+}
+
+.btn-darken {
+    background-color: #ff007f;
+    color: #ffffff;
+    border: 2px solid #ff007f;
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.3);
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: #b30059;
+    border-color: #b30059;
+    box-shadow: 0 0 20px #b30059;
+}
+
+.menu a:focus, .btn:focus {
+    outline: 2px dashed #00f0ff;
+    outline-offset: 4px;
+}
+
+footer a {
+    color: #00f0ff;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 240, 255, 0.3);
+}
