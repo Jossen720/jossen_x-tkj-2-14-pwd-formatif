@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #030303;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #111111;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+}
+
+header h1 {
+    margin: 0;
+    color: #00f0ff;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
+}
+
+.pembungkus-isi {
+    flex: 1;
+    max-width: 800px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section h2 {
+    color: #00f0ff;
+    font-size: 22px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color: #ff007f;
+    text-shadow: 0 0 8px #ff007f;
+    transform: translateX(5px);
+}
+
+footer {
+    background-color: #111111;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #333333;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #a0aec0;
+}
