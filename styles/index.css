@@ -1,80 +1,68 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #030303;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 header {
-    background-color: #111111;
-    padding: 30px;
-    text-align: center;
-    border-bottom: 2px solid #333333;
+  background-color: #1e3a5f;
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 20px;
 }
 
 header h1 {
-    margin: 0;
-    color: #00f0ff;
-    font-size: 28px;
-    text-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
+  margin: 0;
+  font-size: 22px;
 }
 
-.pembungkus-isi {
-    flex: 1;
-    max-width: 800px;
-    width: 100%;
-    margin: 40px auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.content-wrapper {
+  max-width: 480px;
+  margin: 36px auto;
+  padding: 0 20px;
 }
 
-section h2 {
-    color: #00f0ff;
-    font-size: 22px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #333333;
-    padding-bottom: 5px;
+section {
+  margin-bottom: 28px;
+}
+
+#components h2,
+#pages h2 {
+  color: #1e3a5f;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  padding-left: 24px;
+  margin: 0;
 }
 
-ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    display: inline-block;
+li {
+  margin-bottom: 6px;
 }
 
-ul li a:hover {
-    color: #ff007f;
-    text-shadow: 0 0 8px #ff007f;
-    transform: translateX(5px);
+main a {
+  color: #d97706;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+main a:hover {
+  color: #b45309;
 }
 
 footer {
-    background-color: #111111;
-    padding: 15px;
-    text-align: center;
-    border-top: 2px solid #333333;
+  background-color: #e2e8f0;
+  color: #475569;
+  text-align: center;
+  padding: 16px 20px;
+  font-size: 12px;
+  margin-top: 40px;
 }
 
 footer p {
-    margin: 0;
-    font-size: 14px;
-    color: #a0aec0;
+  margin: 0;
 }
